@@ -8,6 +8,7 @@ Ce dépôt est utilisé comme base de développement pour le test de compétence
 A ce jour, le client utilise un fichier excel pour rédiger des bons de commande (voir format ci-dessous). Bien qu'efficace, le partage entre les différents pôles de la société est compliqué et donne lieu à des problèmes de suivi. Le but est donc de proposer un outil simple d'utilisation pour la consultation des bons de commande.
 
 `Fichier excel d'un bon de commande`
+
 | Numéro | Désignation                            | Date de création | État     |
 | :----: |:---------------------------------------| :----------------| :--------|
 | 1      | Développement spécifique JOHN DOE       | 04/01/2017       | En cours |
@@ -27,7 +28,7 @@ Mise en place d'une solution web afin de permettre le partage des bons de comman
 - Une sécurisation simple de l'application par un système de connexion
 
 ## Instructions / Informations utiles
-- Créer un fork du dépôt et récupérer celui-ci dans le dossier local /var/www avec comme nom de dossier `job`
+- Créer un fork du dépôt et récupérer celui-ci dans le dossier local `/var/www` avec comme nom de dossier `job`
 - Accéder à l'application via l'url [localhost/job/public](http://localhost/job/public)
 - Insérer des données de test dans la base de données afin de pouvoir vérifier le bon fonctionnement des pages demandées
 - Utiliser au mieux le système de versionnement
