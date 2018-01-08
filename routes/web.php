@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::resource('/index' , 'CommandesController');
+
+/* Pour utiliser l'authentification */
+Route::get('/show' , 'CommandesController@show')->middleware('auth');
